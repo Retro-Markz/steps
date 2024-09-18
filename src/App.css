@@ -7,14 +7,14 @@
 }
 
 .btn {
-  @apply bg-purple-600 text-white py-1 px-8 rounded-full;
+  @apply bg-purple-700 text-white py-1 px-8 rounded-full;
 }
 
 .btn:hover {
-  @apply bg-purple-300 text-black;
+  @apply bg-purple-400 text-black;
   transition: all 150ms ease-in-out;
 }
 
 .btn:focus {
-  @apply bg-purple-400;
+  @apply bg-purple-500;
 }
