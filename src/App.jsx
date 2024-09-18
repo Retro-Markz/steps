@@ -10,7 +10,7 @@ function App() {
   function handlePrev() {
     if (step > 1) setStep(step - 1);
   }
-  e;
+
   function handleNext() {
     if (step < 3) setStep(step + 1);
   }
