@@ -3,7 +3,7 @@ import "./App.css";
 const messages = ["Learn react ", "Apply for jobs", "continue improving"];
 
 function App() {
-  const step = 1;
+  const step = 0;
   return (
     <>
       <div className="container  h-[max-content]  w-[40vw] bg-gray-200 mx-auto mt-48 rounded-xl shadow-xl ">
