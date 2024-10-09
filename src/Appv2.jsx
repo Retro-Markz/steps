@@ -29,11 +29,11 @@ function AppV2() {
         </p>
 
         <div className="buttons ">
-          <ButtonCtr classNames="btn" onClick={() => handlePrev()}>
+          <ButtonCtr classNames="btn" funct={() => handlePrev()}>
             <span>👈</span> Previous
           </ButtonCtr>
 
-          <ButtonCtr classNames="btn" onClick={() => handleNext()}>
+          <ButtonCtr classNames="btn" funct={() => handleNext()}>
             Next <span>👉</span>
           </ButtonCtr>
         </div>

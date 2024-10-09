@@ -1,7 +1,7 @@
-function ButtonCtr({ children, classNames, onClick }) {
+function ButtonCtr({ children, classNames, funct }) {
   return (
     <div>
-      <button className={classNames} onClick={onClick}>
+      <button className={classNames} onClick={funct}>
         {children}
       </button>
     </div>
