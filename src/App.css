@@ -18,3 +18,7 @@
 .btn:focus {
   @apply bg-purple-500;
 }
+
+.buttons {
+  @apply flex justify-around font-bold mt-4 pb-8;
+}
