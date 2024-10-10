@@ -1,3 +1,4 @@
+// eslint-disable-next-line react/prop-types
 function ButtonCtr({ children, classNames, funct }) {
   return (
     <div>

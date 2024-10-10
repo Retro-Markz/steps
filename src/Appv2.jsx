@@ -1,6 +1,7 @@
 import "./App.css";
 import { useState } from "react";
 import ButtonCtr from "./ButtonCtr";
+import StepMessage from "./StepMessage";
 
 const messages = ["Learn React ", "Apply for Jobs", "Continue Improving"];
 
@@ -24,9 +25,7 @@ function AppV2() {
           <div className={step >= 3 ? "active" : "num"}>3</div>
         </div>
 
-        <p className="message text-center text-4xl font-bold pt-8 pb-8">
-          Step {step}: {messages[step - 1]}
-        </p>
+        <StepMessage step={step}>{messages[step - 1]}</StepMessage>
 
         <div className="buttons ">
           <ButtonCtr classNames="btn" funct={() => handlePrev()}>
